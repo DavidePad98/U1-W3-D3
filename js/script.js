@@ -18,10 +18,10 @@ taskPage.addEventListener("submit", function (e) {
     datiClient.classList.toggle("class-task");
   });
 
-  // const deleteAllData = document.getElementById("cancella");
-  // deleteAllData.addEventListener("click", function () {
-  //   datiClient.remove();
-  // });
+  const deleteAllData = document.getElementById("cancella");
+  deleteAllData.addEventListener("click", function () {
+    datiClient.remove();
+  });
 
   submitInputTask.value = "";
 });

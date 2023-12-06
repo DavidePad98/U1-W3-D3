@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+  background-color: rgb(240, 210, 128);
+}
+
+.class-task {
+  text-decoration: line-through;
+}
+
+.button {
+  color: white;
+  background-color: rgb(227, 136, 24);
+  border-radius: 5px;
+  border-style: hidden;
+  padding: 15px;
+}
+
+#sub-task {
+  background-color: rgb(240, 210, 128);
+  padding: 15px;
+  width: 200px;
+  border-radius: 15px;
+}
